@@ -4,6 +4,7 @@
 
 /**
  * main-entry
+ *return-successful program
  */
 int main(void)
 {
