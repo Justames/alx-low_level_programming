@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * Reeturn: eachtime 0 (success)
+ * Return: eachtime 0 (success)
  */
 
 int main(void)
