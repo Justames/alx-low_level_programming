@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
- * main-entry
- *return: Always 0 (success)
+ *main - entry point
+ *Return: Always 0 (success)
  */
+
 int main(void)
 {
 	int n;
