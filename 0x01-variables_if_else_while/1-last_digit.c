@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main-entry point
- * return: eachtime 0 (success)
+ * main - entry point
+ * Return: eachtime 0 (success)
  */
 int main(void)
 {
@@ -14,12 +14,12 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	m = n % 10;
-	if (m > 5)
+	j = n % 10;
+	if (j > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n);
-	else if  (m == 0)
+	if  (j == 0)
 		printf("Last digit of %d is %d and is 0\n", n);
-	if (m <6 && != 0)
+	if (j <6 && != 0)
 		printf("Last digit of %d is %d and is less than 6 and is not 0\n", n);
 	return (0);
 }
