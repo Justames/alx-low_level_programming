@@ -2,30 +2,28 @@
 
 /**
  * main - entry point
- * Return: eachtime 0 (succes)
+ * Return: eachtime 0 (success
  */
 
 int main(void)
 {
-	char c;
+	char l;
 
-	char k;
+	char n;
 
-	c = 'a';
-
-	k = 'A';
-
-	while (c <= 'z')
+	l = 'a';
+	n = 'A';
+	while (l <= 'z')
 	{
 		putchar(c);
 		c++;
 	}
-	while (k <= 'Z')
+	while (n <= 'Z')
 	{
-		putchar(k);
-		k++;
+		putchar(n);
+		n++;
 	}
+	putchar(\n);
 	return (0);
 }
-
 
