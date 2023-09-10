@@ -15,8 +15,8 @@ int main(void)
 	n = 'A';
 	while (l <= 'z')
 	{
-		putchar(c);
-		c++;
+		putchar(l);
+		l++;
 	}
 	while (n <= 'Z')
 	{
