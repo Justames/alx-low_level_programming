@@ -1,10 +1,12 @@
 #include <stdio.h>
+
 /**
- * main - a program printing a line eith printf
- * Return: 0
+ * main - a program printing a line with printf
+ * Return: eachtime 0 (success)
  */
+
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art, \n")
+	printf("with proper grammar, but the outcome is a piece of art, \n");
 	return (0);
 }
