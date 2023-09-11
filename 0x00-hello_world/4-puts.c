@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - header,h
+ * main - entry point
  * Return: eachtime 0 (success)
  */
 
 int main(void)
 {
 	puts("Programming is like building a multilingual puzzle");
-	puts('\n')
+	puts("\n");
 	return (0);
 }
