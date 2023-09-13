@@ -1,21 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - entry point
- * Reaturn: eachtime 0 (successs)
+ *print_alphabet - print alphabets
+ *
+ *Description: print_alphabet use to print a to z
+ *
+ *Return: return void
+ *
  */
-
-int main(void)
+void print_alphabet(void)
 {
-	char s;
+	char i = 'a';
 
-	s = 'a';
-
-	while (s <= 'z')
+	while (i <= 'z')
 	{
-		_putchar();
-		s++;
+		_putchar(i);
+		i++;
 	}
-	_putchar("\n");
-	return (0);
+	_putchar('\n');
 }
