@@ -1,14 +1,22 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - entry point
- * Return: eachtime 0 (success)
+ *main - print out the characters
+ *
+ * Description: return the required results
+ *
+ * Return: return integer value 0
+ *
  */
-
 int main(void)
 {
-	int _putchar("_putchar");
-	putchar("\n");
-	return (0);
+	int n = 0;
+	char name[8] = "_putchar";
 
+	while (n < 8)
+	{
+		_putchar(name[n]);
+		n++;
+	}
+	_putchar('\n');
+	return (0);
 }
