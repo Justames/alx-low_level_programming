@@ -3,7 +3,8 @@
 /**
  * _isupper - -uppercase  letters
  * @c : char check
- * Return: eachtime 0 or 1
+ *
+ * Return: 0 or 1
  */
 
 int _isupper(int q)
