@@ -11,9 +11,10 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		n1 = -1;
+		n1 = -n;
 		_putchar('-');
-	}else
+	}
+	else
 	{
 		n1 = n;
 	}
