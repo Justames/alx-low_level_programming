@@ -5,7 +5,7 @@
  * @size - size of the triangle
  */
 
-void main(int size)
+void print_triangle(int size)
 {
 	if (size <= 0)
 	{
@@ -21,11 +21,13 @@ void main(int size)
 			{
 				_putchar(' ');
 			}
+
 			for (j = 1; j <= i; j++)
 			{
 				_putchar('#');
 			}
-			_putchar("\n");
+
+			_putchar('\n');
 		}
 	}
 }
