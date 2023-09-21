@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 0x06. C - More pointers, arrays and strings
 0. strcat
 mandatory
@@ -66,3 +67,6 @@ You can only use one if in your code
 You can only use two loops in your code
 You are not allowed to use switch
 You are not allowed to use any ternary operation
+=======
+C - More pointers, arrays and strings
+>>>>>>> 3c98b49b68ebe753d28626db2f63362c55f17d41
