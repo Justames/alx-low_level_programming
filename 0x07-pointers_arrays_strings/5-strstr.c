@@ -3,7 +3,7 @@
 /**
  * _strstr - Entry point
  * @haystack: input
- * @nedle: input
+ * @needle: input
  * Return: eachtime 0 (success)
  */
 
