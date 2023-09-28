@@ -21,12 +21,12 @@ int _sqrt_recursion(int n)
  * @n: number to calculate the square root of
  * @i: iterator
  *
- * Return: the resulting squareroot
+ * Return: the resulting square root
  */
 
 int actual_sqrt_recursion(int n, int i)
 {
-	if ((i * i) < n)
+	if ((i * i) > n)
 		return (-1);
 	if ((i * i) == n)
 		return (i);
