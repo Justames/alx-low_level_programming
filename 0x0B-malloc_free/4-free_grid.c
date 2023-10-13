@@ -5,7 +5,7 @@
 /**
  * free_grid - frees 2 dimensional array
  * @grid:  dimaensional grid
- * @heightt: height dimension of grid
+ * @height: height dimension of grid
  * Description: frees memory of grid
  * Return: void
  */
